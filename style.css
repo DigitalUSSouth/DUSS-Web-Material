@@ -1,0 +1,38 @@
+.thumbnails li
+{
+	list-style-type: none;
+	float: left;
+	display: block;
+	position: relative;
+	border: 5px solid #EEEEEE;
+	height: 170px;
+	width: 170px;
+	margin: 5px;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+}
+
+.hoverimg
+{
+	border-radius: 25px;
+}
+
+#wrapper .text {
+position:relative;
+bottom:145px;
+text-align: center;
+left:0px;
+visibility:hidden;
+margin-right: 3px;
+margin-left: 3px;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}
+
+body
+{
+	font-family: arial;
+	font-size: 16px;
+}
